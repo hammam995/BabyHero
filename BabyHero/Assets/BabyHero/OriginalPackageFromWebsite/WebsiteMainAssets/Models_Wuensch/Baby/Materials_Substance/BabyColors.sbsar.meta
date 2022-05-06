@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: 382a22f41b3c35c44b5bc8c68e0fae1d
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100022: GirlDaisy
+    2100024: BoyJoe
+    2100026: GirlShawna
+    2100028: BoyJay
+    2100030: BoyJim
+    2100032: BoyKai
+    2100034: BoyLionel
+    2100036: GirlYuki
+    2100038: GirlSonja
+    2100040: Baby
+    2100042: Baby_Test
+    2800066: GirlDaisy - diffuse
+    2800068: GirlDaisy - normal
+    2800070: GirlDaisy - ambientOcclusion
+    2800072: BoyJoe - diffuse
+    2800074: BoyJoe - normal
+    2800076: BoyJoe - ambientOcclusion
+    2800078: GirlShawna - diffuse
+    2800080: GirlShawna - normal
+    2800082: GirlShawna - ambientOcclusion
+    2800084: BoyJay - diffuse
+    2800086: BoyJay - normal
+    2800088: BoyJay - ambientOcclusion
+    2800090: BoyJim - diffuse
+    2800092: BoyJim - normal
+    2800094: BoyJim - ambientOcclusion
+    2800096: BoyKai - diffuse
+    2800098: BoyKai - normal
+    2800100: BoyKai - ambientOcclusion
+    2800102: BoyLionel - diffuse
+    2800104: BoyLionel - normal
+    2800106: BoyLionel - ambientOcclusion
+    2800108: GirlYuki - diffuse
+    2800110: GirlYuki - normal
+    2800112: GirlYuki - ambientOcclusion
+    2800114: GirlSonja - diffuse
+    2800116: GirlSonja - normal
+    2800118: GirlSonja - ambientOcclusion
+    2800120: Baby - diffuse
+    2800122: Baby - normal
+    2800124: Baby - ambientOcclusion
+    2800126: Baby_Test - diffuse
+    2800128: Baby_Test - normal
+    2800130: Baby_Test - ambientOcclusion
+    11400000: graph1
+    11400002: graph2
+    11400004: graph3
+    11400006: graph4
+    11400008: graph5
+    11400010: graph6
+    11400012: graph7
+    11400014: graph8
+    11400016: graph9
+    11400018: graph10
+    11400020: sbsar
+    11400022: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: GirlDaisy
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.900127,0.136246,0.926471\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.843244,0.529628,0.911765\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.055147,0.25,0.096805\" />\n  <presetinput identifier=\"specularity__Lightness\"
+      uid=\"3801753566\" type=\"0\" value=\"0.504\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.198529,0.196705,0.19415\" />\n  <presetinput
+      identifier=\"Props_Pacifier_Base_Color_Color\" uid=\"3801789985\" type=\"2\"
+      value=\"0.835998,0.402249,0.882353\" />\n  <presetinput identifier=\"Props_Pacifier_Ring_Base_Color_Color\"
+      uid=\"3801996891\" type=\"2\" value=\"0.911437,0.926471,0.653979\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.904584,1,0.011765\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlDaisy - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlDaisy - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlDaisy - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlDaisy - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlDaisy - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: BoyJoe
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.087911,0.078503,0.088235\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.306445,0.382353,0.325814\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.146961,0.116854,0.513726\" />\n  <presetinput identifier=\"Props_Pacifier_Base_Color_Color\"
+      uid=\"3801789985\" type=\"2\" value=\"0.172019,0.242647,0.169496\" />\n  <presetinput
+      identifier=\"Props_Pacifier_Ring_Base_Color_Color\" uid=\"3801996891\" type=\"2\"
+      value=\"0.260381,0.316176,0.267692\" />\n  <presetinput identifier=\"Props_Glasses_Base_Color_Color\"
+      uid=\"3801789087\" type=\"2\" value=\"0.204844,0.235294,0.197232\" />\n  <presetinput
+      identifier=\"Props_Bottle_Cap_Base_Color_Color\" uid=\"3801992638\" type=\"2\"
+      value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: BoyJoe - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJoe - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJoe - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJoe - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJoe - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlShawna
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.727941,0.04282,0.04282\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.049957,0.566176,0.096239\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.382353,0.259349,0.03936\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.154412,0.149682,0.143058\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.832723,0.360564,0.860294\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlShawna - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlShawna - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlShawna - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlShawna - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlShawna - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: BoyJay
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.181497,0.316176,0.176687\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.144842,0.24856,0.345588\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: BoyJay - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJay - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJay - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJay - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJay - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: BoyJim
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.297578,0.754755,0.941176\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.829963,0.839721,0.875\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.021388,0.017193,0.022059\" />\n  <presetinput identifier=\"Props_Glasses_Base_Color_Color\"
+      uid=\"3801789087\" type=\"2\" value=\"0.309202,0.654713,0.977941\" />\n  <presetinput
+      identifier=\"Props_Bottle_Cap_Base_Color_Color\" uid=\"3801992638\" type=\"2\"
+      value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: BoyJim - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJim - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJim - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJim - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyJim - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: BoyKai
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.278979,0.413018,0.632353\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.167388,0.245822,0.529412\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.117647,0.114974,0.103806\" />\n  <presetinput identifier=\"Props_Pacifier_Base_Color_Color\"
+      uid=\"3801789985\" type=\"2\" value=\"0.358131,0.676471,0.597435\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.206964,0.473777,0.485294\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: BoyKai - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyKai - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyKai - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyKai - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyKai - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: BoyLionel
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.301122,0.676828,0.862745\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.985294,0.319371,0.123162\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.035682,0.080882,0.024384\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.25,0.242342,0.231618\" />\n  <presetinput
+      identifier=\"Props_Pacifier_Base_Color_Color\" uid=\"3801789985\" type=\"2\"
+      value=\"0.294064,0.621734,0.816176\" />\n  <presetinput identifier=\"Props_Glasses_Base_Color_Color\"
+      uid=\"3801789087\" type=\"2\" value=\"0.011765,0.713753,1\" />\n  <presetinput
+      identifier=\"Props_Bottle_Cap_Base_Color_Color\" uid=\"3801992638\" type=\"2\"
+      value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: BoyLionel - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyLionel - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyLionel - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyLionel - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: BoyLionel - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlYuki
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.83737,0.923995,0.941176\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.16928,0.742647,0.268136\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.06423,0.121614,0.397059\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.264706,0.214435,0.144031\" />\n  <presetinput
+      identifier=\"Props_Pacifier_Base_Color_Color\" uid=\"3801789985\" type=\"2\"
+      value=\"0.080125,0.573529,0.165195\" />\n  <presetinput identifier=\"Props_Glasses_Base_Color_Color\"
+      uid=\"3801789087\" type=\"2\" value=\"0.801471,0.047145,0.187606\" />\n  <presetinput
+      identifier=\"Props_Bottle_Cap_Base_Color_Color\" uid=\"3801992638\" type=\"2\"
+      value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlYuki - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlYuki - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlYuki - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlYuki - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlYuki - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlSonja
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"3\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.455886,0.369323,0.727941\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.348237,0.651139,0.830882\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.013841,0.20599,0.470588\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.249523,0.200584,0.257353\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.565762,0.432256,0.904412\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlSonja - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlSonja - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlSonja - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlSonja - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlSonja - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: Baby
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"boy_skincolor_Input_Selection\"
+      uid=\"3801618293\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.862745,0.638096,0.301122\" />\n  <presetinput
+      identifier=\"specularity__Lightness\" uid=\"3801753566\" type=\"0\" value=\"0.509\"
+      />\n  <presetinput identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\"
+      type=\"2\" value=\"0.011765,0.522347,1\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n  <presetinput identifier=\"Props_BottleMilk_Base_Color_Color\"
+      uid=\"3801953689\" type=\"2\" value=\"0.795577,0.992647,0.960029\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: Baby - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: Baby_Test
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Baby\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2490296002\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Bool_Is_it_a_girl_Switch\"
+      uid=\"3801617921\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"girl_skincolor_Input_Selection\"
+      uid=\"3801618269\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"TShirt__Base_Color_Color\"
+      uid=\"3801749314\" type=\"2\" value=\"0.128982,0.676471,0.109429\" />\n  <presetinput
+      identifier=\"Diaper_Base_Color_Color\" uid=\"3801784539\" type=\"2\" value=\"0.985294,0.282548,0.675116\"
+      />\n  <presetinput identifier=\"Eye__Base_Color_Color\" uid=\"3801749375\" type=\"2\"
+      value=\"0.110294,0.049263,0.009732\" />\n  <presetinput identifier=\"skin_specular_Base_Color_Color\"
+      uid=\"3801945726\" type=\"2\" value=\"0.176471,0.169443,0.159602\" />\n  <presetinput
+      identifier=\"Props_Glasses_Base_Color_Color\" uid=\"3801789087\" type=\"2\"
+      value=\"0.011765,0.522347,1\" />\n  <presetinput identifier=\"Props_Bottle_Cap_Base_Color_Color\"
+      uid=\"3801992638\" type=\"2\" value=\"1,0,0.016663\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: Baby_Test - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby_Test - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby_Test - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby_Test - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Baby_Test - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []

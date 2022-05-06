@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: e628f8bcae09ff044b6b5acc811e63ba
+timeCreated: 1555190421
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BaseCap
+    100002: Beanie
+    100004: BoysHair_bob
+    100006: BoysHair_curly
+    100008: BoysHair_iro
+    100010: BoysHair_mod
+    100012: BoysHair_Surfer
+    100014: BoysHair_wild
+    100016: //RootNode
+    100018: Hat
+    400000: BaseCap
+    400002: Beanie
+    400004: BoysHair_bob
+    400006: BoysHair_curly
+    400008: BoysHair_iro
+    400010: BoysHair_mod
+    400012: BoysHair_Surfer
+    400014: BoysHair_wild
+    400016: //RootNode
+    400018: Hat
+    2300000: BaseCap
+    2300002: Beanie
+    2300004: BoysHair_bob
+    2300006: BoysHair_curly
+    2300008: BoysHair_iro
+    2300010: BoysHair_mod
+    2300012: BoysHair_Surfer
+    2300014: BoysHair_wild
+    2300016: Hat
+    3300000: BaseCap
+    3300002: Beanie
+    3300004: BoysHair_bob
+    3300006: BoysHair_curly
+    3300008: BoysHair_iro
+    3300010: BoysHair_mod
+    3300012: BoysHair_Surfer
+    3300014: BoysHair_wild
+    3300016: Hat
+    4300000: Beanie
+    4300002: Hat
+    4300004: BaseCap
+    4300006: BoysHair_wild
+    4300008: BoysHair_bob
+    4300010: BoysHair_mod
+    4300012: BoysHair_iro
+    4300014: BoysHair_curly
+    4300016: BoysHair_Surfer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

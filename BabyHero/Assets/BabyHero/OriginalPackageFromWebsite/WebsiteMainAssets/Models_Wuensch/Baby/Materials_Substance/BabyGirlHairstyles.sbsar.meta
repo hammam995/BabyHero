@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: fef2264a98bfa01418ce315221c901d8
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100018: B_Daisy
+    2100020: A_Daisy
+    2100022: GirlHairstyleC
+    2100024: A_Shawna
+    2100026: C_BoyLionel
+    2100028: C_Yuki
+    2100030: C_Sonja
+    2100032: GirlHairstyleA
+    2100034: GirlHairstyleB
+    2800054: B_Daisy - diffuse
+    2800056: B_Daisy - normal
+    2800058: B_Daisy - ambientOcclusion
+    2800060: A_Daisy - diffuse
+    2800062: A_Daisy - normal
+    2800064: A_Daisy - ambientOcclusion
+    2800066: GirlHairstyleC - diffuse
+    2800068: GirlHairstyleC - normal
+    2800070: GirlHairstyleC - ambientOcclusion
+    2800072: A_Shawna - diffuse
+    2800074: A_Shawna - normal
+    2800076: A_Shawna - ambientOcclusion
+    2800078: C_BoyLionel - diffuse
+    2800080: C_BoyLionel - normal
+    2800082: C_BoyLionel - ambientOcclusion
+    2800084: C_Yuki - diffuse
+    2800086: C_Yuki - normal
+    2800088: C_Yuki - ambientOcclusion
+    2800090: C_Sonja - diffuse
+    2800092: C_Sonja - normal
+    2800094: C_Sonja - ambientOcclusion
+    2800096: GirlHairstyleA - diffuse
+    2800098: GirlHairstyleA - normal
+    2800100: GirlHairstyleA - ambientOcclusion
+    2800102: GirlHairstyleB - diffuse
+    2800104: GirlHairstyleB - normal
+    2800106: GirlHairstyleB - ambientOcclusion
+    11400000: graph1
+    11400002: graph2
+    11400004: graph3
+    11400006: graph4
+    11400008: graph5
+    11400010: graph6
+    11400012: graph7
+    11400014: graph8
+    11400016: sbsar
+    11400018: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: B_Daisy
+    prototypeName: 
+    graphDescIndex: 1
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleB\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1758808724\" type=\"8\" value=\"9,9\" />\n
+      \ <presetinput identifier=\"StyleB_hair_Base_Color_Color\" uid=\"505512813\"
+      type=\"2\" value=\"0.889706,0.341445,0.248594\" />\n  <presetinput identifier=\"StyleB_braid_Base_Color_Color\"
+      uid=\"505512663\" type=\"2\" value=\"0.15917,0.941176,0.22928\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: B_Daisy - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: B_Daisy - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: B_Daisy - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: B_Daisy - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: B_Daisy - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: A_Daisy
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleA\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"4057733934\" type=\"8\" value=\"9,9\" />\n
+      \ <presetinput identifier=\"StyleA_hair_Base_Color_Color\" uid=\"2267598908\"
+      type=\"2\" value=\"0.941176,0.394798,0.193772\" />\n  <presetinput identifier=\"StyleA_braid_Base_Color_Color\"
+      uid=\"2267600626\" type=\"2\" value=\"0,0.87451,0.295524\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: A_Daisy - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Daisy - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Daisy - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Daisy - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Daisy - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlHairstyleC
+    prototypeName: 
+    graphDescIndex: 2
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleC\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"533887490\" type=\"8\" value=\"9,9\" />\n  <presetinput
+      identifier=\"StyleC_hair_Base_Color_Color\" uid=\"1764142670\" type=\"2\" value=\"0.323529,0.218858,0.218858\"
+      />\n  <presetinput identifier=\"StyleC_braid_Base_Color_Color\" uid=\"1764142362\"
+      type=\"2\" value=\"0.070726,0.858824,0.076161\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlHairstyleC - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleC - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleC - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleC - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleC - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: A_Shawna
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleA\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"4057733934\" type=\"8\" value=\"9,9\" />\n
+      \ <presetinput identifier=\"StyleA_hair_Base_Color_Color\" uid=\"2267598908\"
+      type=\"2\" value=\"0.207843,0.086595,0\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: A_Shawna - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Shawna - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Shawna - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Shawna - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: A_Shawna - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: C_BoyLionel
+    prototypeName: 
+    graphDescIndex: 2
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleC\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"533887490\" type=\"8\" value=\"9,9\" />\n  <presetinput
+      identifier=\"StyleC_hair_Base_Color_Color\" uid=\"1764142670\" type=\"2\" value=\"0.226157,0.226981,0.345588\"
+      />\n  <presetinput identifier=\"StyleC_braid_Base_Color_Color\" uid=\"1764142362\"
+      type=\"2\" value=\"0.858824,0.070726,0.070726\" />\n  <presetinput identifier=\"specularity__Contrast\"
+      uid=\"1764114896\" type=\"0\" value=\"-0.51\" />\n  <presetinput identifier=\"specularity__Luminosity\"
+      uid=\"1764114902\" type=\"0\" value=\"-0.15\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: C_BoyLionel - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_BoyLionel - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_BoyLionel - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_BoyLionel - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_BoyLionel - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: C_Yuki
+    prototypeName: 
+    graphDescIndex: 2
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleC\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"533887490\" type=\"8\" value=\"9,9\" />\n  <presetinput
+      identifier=\"StyleC_hair_Base_Color_Color\" uid=\"1764142670\" type=\"2\" value=\"0.198529,0.187216,0.153276\"
+      />\n  <presetinput identifier=\"StyleC_braid_Base_Color_Color\" uid=\"1764142362\"
+      type=\"2\" value=\"0.963235,0.035413,0.131394\" />\n  <presetinput identifier=\"specularity__Contrast\"
+      uid=\"1764114896\" type=\"0\" value=\"0.057\" />\n  <presetinput identifier=\"specularity__Luminosity\"
+      uid=\"1764114902\" type=\"0\" value=\"0.18\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: C_Yuki - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Yuki - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Yuki - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Yuki - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Yuki - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: C_Sonja
+    prototypeName: 
+    graphDescIndex: 2
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleC\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"533887490\" type=\"8\" value=\"9,9\" />\n  <presetinput
+      identifier=\"StyleC_hair_Base_Color_Color\" uid=\"1764142670\" type=\"2\" value=\"0.919118,0.77044,0.324394\"
+      />\n  <presetinput identifier=\"StyleC_braid_Base_Color_Color\" uid=\"1764142362\"
+      type=\"2\" value=\"0.458088,0.35386,0.875\" />\n  <presetinput identifier=\"specularity__Luminosity\"
+      uid=\"1764114902\" type=\"0\" value=\"-0.334\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: C_Sonja - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Sonja - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Sonja - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Sonja - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: C_Sonja - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlHairstyleA
+    prototypeName: 
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleA\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"4057733934\" type=\"8\" value=\"9,9\" />\n
+      \ <presetinput identifier=\"StyleA_hair_Base_Color_Color\" uid=\"2267598908\"
+      type=\"2\" value=\"0.786765,0.442537,0.196691\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlHairstyleA - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleA - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleA - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleA - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleA - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
+  - graphLabel: GirlHairstyleB
+    prototypeName: 
+    graphDescIndex: 1
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GirlHairstyleB\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1758808724\" type=\"8\" value=\"9,9\" />\n
+      \ <presetinput identifier=\"StyleB_hair_Base_Color_Color\" uid=\"505512813\"
+      type=\"2\" value=\"0.875,0.402003,0.038603\" />\n  <presetinput identifier=\"StyleB_braid_Base_Color_Color\"
+      uid=\"505512663\" type=\"2\" value=\"0.955882,0.231942,0.696263\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: aO
+      alphaSource: aO
+    textureParameters:
+    - textureName: GirlHairstyleB - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleB - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleB - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleB - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GirlHairstyleB - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: aO
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    - label: Standalone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    - label: iPhone
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {instanceID: 0}
+    generatedTextures: []
